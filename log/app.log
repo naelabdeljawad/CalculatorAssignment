@@ -198,3 +198,103 @@ Session ID: d993dcb21bdad106060280d19529f701
 2020-10-29 13:46:40.892 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (d993dcb21bdad106060280d19529f701)] -> id: BtnClear]
 2020-10-29 13:46:40.893 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #histframe li
 2020-10-29 13:46:40.903 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #histframe li
+2020-10-29 14:13:31.132 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://web2.0calc.com/
+2020-10-29 14:13:32.464 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://web2.0calc.com/
+2020-10-29 14:13:32.470 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: btns
+2020-10-29 14:13:32.484 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: btns
+2020-10-29 14:13:32.519 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: input
+2020-10-29 14:13:32.530 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: input
+2020-10-29 14:13:32.531 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input]
+2020-10-29 14:13:32.568 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input]
+2020-10-29 14:13:32.568 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.name: cookies
+2020-10-29 14:13:32.579 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.name: cookies
+2020-10-29 14:13:32.579 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> name: cookies]
+2020-10-29 14:13:33.979 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> name: cookies]
+2020-10-29 14:13:33.990 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: input
+2020-10-29 14:13:33.999 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: input
+2020-10-29 14:13:34.005 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] need to change to 2+3
+2020-10-29 14:13:34.125 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] value changed to: 2+3
+2020-10-29 14:13:34.128 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: BtnCalc
+2020-10-29 14:13:34.142 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: BtnCalc
+2020-10-29 14:13:34.142 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:13:34.170 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:13:34.171 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:13:34.180 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: loading
+2020-10-29 14:13:36.197 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:13:46.287 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".loading"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:535a:e000:d483:1f22:aa80:54b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/1x/8mjybvrd4nx...}, goog:chromeOptions: {debuggerAddress: localhost:62871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34dfffee12cc40dc038d784dc60c9581
+*** Element info: {Using=class name, value=loading}
+2020-10-29 14:13:46.290 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:13:46.306 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:13:46.316 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: BtnClear
+2020-10-29 14:13:46.326 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: BtnClear
+2020-10-29 14:13:46.327 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:13:46.354 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:13:46.356 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] need to change to 10-2
+2020-10-29 14:13:46.381 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] value changed to: 10-2
+2020-10-29 14:13:46.382 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:13:46.412 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:13:46.412 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:13:46.418 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: loading
+2020-10-29 14:13:48.438 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:13:58.482 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".loading"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:535a:e000:d483:1f22:aa80:54b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/1x/8mjybvrd4nx...}, goog:chromeOptions: {debuggerAddress: localhost:62871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34dfffee12cc40dc038d784dc60c9581
+*** Element info: {Using=class name, value=loading}
+2020-10-29 14:13:58.484 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:13:58.492 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:13:58.501 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:13:58.519 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:13:58.521 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] need to change to (10-2)*2!
+2020-10-29 14:13:58.569 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] value changed to: (10-2)*2!
+2020-10-29 14:13:58.571 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:13:58.589 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:13:58.589 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:13:58.597 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: loading
+2020-10-29 14:14:00.617 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:14:10.680 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".loading"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:535a:e000:d483:1f22:aa80:54b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/1x/8mjybvrd4nx...}, goog:chromeOptions: {debuggerAddress: localhost:62871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34dfffee12cc40dc038d784dc60c9581
+*** Element info: {Using=class name, value=loading}
+2020-10-29 14:14:10.682 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:14:10.690 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:14:10.699 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:14:10.716 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:14:10.717 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] need to change to sin(30)
+2020-10-29 14:14:10.751 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: input] value changed to: sin(30)
+2020-10-29 14:14:10.753 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:14:10.772 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnCalc]
+2020-10-29 14:14:10.773 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:14:10.779 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: loading
+2020-10-29 14:14:12.793 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: loading
+2020-10-29 14:14:22.807 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".loading"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:535a:e000:d483:1f22:aa80:54b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/1x/8mjybvrd4nx...}, goog:chromeOptions: {debuggerAddress: localhost:62871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34dfffee12cc40dc038d784dc60c9581
+*** Element info: {Using=class name, value=loading}
+2020-10-29 14:14:22.809 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:14:22.822 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #histframe p.r
+2020-10-29 14:14:22.830 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:14:22.850 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (34dfffee12cc40dc038d784dc60c9581)] -> id: BtnClear]
+2020-10-29 14:14:22.851 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #histframe li
+2020-10-29 14:14:22.868 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #histframe li

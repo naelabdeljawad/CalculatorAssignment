@@ -1,5 +1,5 @@
 # Calculator Assignment
-
+![](gif-shot.gif)
 ## About the project
 * This is Maven project which has pom.xml file includes dependencies.
 * Used dependencies: Selenium, TestNG, Log4J, Cucumber and ExtentReports.

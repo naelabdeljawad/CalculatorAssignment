@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10756328000,
+              "duration": 10577303000,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-29T11:45:41.301Z",
+        "start_timestamp": "2020-10-29T12:13:23.365Z",
         "line": 6,
         "name": "Calculating with arithmetic operations",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 128875000,
+              "duration": 136466000,
               "status": "passed"
             },
             "line": 8,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 12161901000,
+              "duration": 12161300000,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 56159000,
+              "duration": 65969000,
               "status": "passed"
             },
             "line": 10,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 24554000,
+              "duration": 25930000,
               "status": "passed"
             },
             "line": 12,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 12069045000,
+              "duration": 12101712000,
               "status": "passed"
             },
             "line": 13,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 37358000,
+              "duration": 35708000,
               "status": "passed"
             },
             "line": 14,
@@ -130,7 +130,7 @@
           },
           {
             "result": {
-              "duration": 43991000,
+              "duration": 49932000,
               "status": "passed"
             },
             "line": 16,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 12080549000,
+              "duration": 12110278000,
               "status": "passed"
             },
             "line": 17,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 39986000,
+              "duration": 34813000,
               "status": "passed"
             },
             "line": 18,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 32202000,
+              "duration": 34913000,
               "status": "passed"
             },
             "line": 20,
@@ -196,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 12070739000,
+              "duration": 12055047000,
               "status": "passed"
             },
             "line": 21,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 37589000,
+              "duration": 42320000,
               "status": "passed"
             },
             "line": 22,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 10769000,
+              "duration": 17164000,
               "status": "passed"
             },
             "line": 23,
@@ -244,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 88600000,
+              "duration": 85830000,
               "status": "passed"
             },
             "line": 24,
