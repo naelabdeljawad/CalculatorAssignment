@@ -1,5 +1,7 @@
-package com;
+package com.definitions;
 
+import com.WebDriverFactory;
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +11,9 @@ import org.openqa.selenium.support.ui.FluentWait;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import static com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.getCurrentStep;
+
 public class TestBase {
-    public FluentWait<WebDriver> wait;
     public WebDriver chromeDriver;
 
     protected TestBase() {
@@ -19,9 +22,10 @@ public class TestBase {
 
     public WebDriver createDriver() {
         try {
+            getCurrentStep().log(Status.INFO, "Creating chrome driver...");
             this.chromeDriver = WebDriverFactory.createChromeDriver();
-            this.wait = new FluentWait<>(chromeDriver).withTimeout(Duration.ofSeconds(5))
-                    .ignoring(StaleElementReferenceException.class).pollingEvery(Duration.ofSeconds(2));
+            getCurrentStep().log(Status.INFO,"Chrome driver is created!");
+            return this.chromeDriver;
         } catch (Exception e) {
             e.printStackTrace();
         }

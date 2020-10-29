@@ -1,0 +1,267 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10756328000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I use the calculator",
+            "match": {
+              "location": "com.definitions.CalculatorDefinitions.i_use_the_calculator()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-29T11:45:41.301Z",
+        "line": 6,
+        "name": "Calculating with arithmetic operations",
+        "description": "",
+        "id": "this-is-a-feature-file;calculating-with-arithmetic-operations",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128875000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"2+3\" into the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2+3\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.i_enter_into_the_calculator(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12161901000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on calculate button",
+            "match": {
+              "location": "com.definitions.CalculatorDefinitions.i_click_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56159000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the calculated result is \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.the_calculated_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24554000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"10-2\" into the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10-2\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.i_enter_into_the_calculator(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12069045000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on calculate button",
+            "match": {
+              "location": "com.definitions.CalculatorDefinitions.i_click_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37358000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the calculated result is \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.the_calculated_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43991000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"(10-2)*2!\" into the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(10-2)*2!\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.i_enter_into_the_calculator(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12080549000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on calculate button",
+            "match": {
+              "location": "com.definitions.CalculatorDefinitions.i_click_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39986000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the calculated result is \"16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"16\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.the_calculated_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32202000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter \"sin(30)\" into the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sin(30)\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.i_enter_into_the_calculator(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12070739000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on calculate button",
+            "match": {
+              "location": "com.definitions.CalculatorDefinitions.i_click_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37589000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the calculated result is \"0.5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0.5\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.the_calculated_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10769000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "There are 4 formulas in the calculator history",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 10
+                }
+              ],
+              "location": "com.definitions.CalculatorDefinitions.there_are_formulas_in_the_calculator_history(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88600000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I close the calculator",
+            "match": {
+              "location": "com.definitions.CalculatorDefinitions.i_close_the_calculator()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature file",
+    "description": "",
+    "id": "this-is-a-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/CalculatorScenario.feature",
+    "tags": []
+  }
+]

@@ -1,24 +1,24 @@
 Feature: This is a feature file
 
-  Scenario: Calculating with arithmetic operations
+  Background:
     Given I use the calculator
+
+  Scenario: Calculating with arithmetic operations
     #  2 + 3 = 5
-    When I enter "2" into the calculator
-    And I add "3"
+    When I enter "2+3" into the calculator
+    And I click on calculate button
     Then the calculated result is "5"
     #  10 - 2 = 8
-    When I enter "10" into the calculator
-    And I subtract "2"
+    When I enter "10-2" into the calculator
+    And I click on calculate button
     Then the calculated result is "8"
-    #  (10 - 2) * 2 != 20
-    Given I enter "(" into the calculator
-    And  I enter "10" into the calculator
-    And I subtract "2"
-    And I enter ")" into the calculator
-    And I multiply by "2" factorial
-    Then the calculated result is "20"
+    #  (10 - 2) * 2 != 16
+    Given I enter "(10-2)*2!" into the calculator
+    And I click on calculate button
+    Then the calculated result is "16"
     #  sin(30) = 0.5
-    When I enter "30" into the calculator
-    And  I enter "sin" into the calculator
+    When I enter "sin(30)" into the calculator
+    And I click on calculate button
     Then the calculated result is "0.5"
     And There are 4 formulas in the calculator history
+    Given I close the calculator

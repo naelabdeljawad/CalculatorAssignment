@@ -79,6 +79,9 @@ public class WebDriverFactory {
         return registerWebDriverToListener(chromeDriver);
     }
 
+    /**
+     * Close driver and stop service if running
+     */
     public static void closeDriver() {
         chromeDriver.close();
 

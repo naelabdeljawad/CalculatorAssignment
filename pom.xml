@@ -20,13 +20,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -52,13 +45,6 @@
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
       <version>2.13.3</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.3.0</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
@@ -125,6 +111,12 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+          <configuration>
+            <!-- Suite testng xml file to consider for test execution -->
+            <suiteXmlFiles>
+              <suiteXmlFile>${project.basedir}/src/test/java/com/xml_runner/TestNGRunner.xml</suiteXmlFile>
+            </suiteXmlFiles>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
